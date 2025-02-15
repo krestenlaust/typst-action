@@ -1,4 +1,3 @@
-ARG VERSION=latest
 FROM ghcr.io/typst/typst:${VERSION}
 
 LABEL \
