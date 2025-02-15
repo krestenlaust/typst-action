@@ -31,8 +31,7 @@ inputs:
     required: false
     default: ""
   version:
-    description: >
-      The version tag of ghcr.io/typst/typst, defaults to "latest"
+    description: The version tag of ghcr.io/typst/typst, defaults to 'latest'.
     required: false
     default: "latest"
 runs:
