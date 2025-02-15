@@ -40,5 +40,5 @@ runs:
   args:
     - ${{ inputs.source_file }}
     - ${{ inputs.options }}
-  build-args:
+  env:
     VERSION: ${{ inputs.version }}
